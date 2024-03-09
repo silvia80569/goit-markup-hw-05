@@ -106,11 +106,12 @@ a:active{
   margin-top: 15px;
   border-radius: 5%;
 	text-align: center;
-	cursor: pointer;
 }
 
+.hero-button:focus,
 .hero-button:hover {
-	background-color:var(--light-slate) ;
+	background-color:var(--light-slate) ;	
+  cursor: pointer;
 }
 
 /*styles icons*/
