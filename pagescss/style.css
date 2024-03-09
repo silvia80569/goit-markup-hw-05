@@ -114,6 +114,41 @@ a:active{
   cursor: pointer;
 }
 
+/* styles modal*/
+.is-hidden {
+  visibility: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  margin: 0 auto;
+  padding: 16px;
+  background-color: var(--white);
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.close-btn {
+  background-color: var(--ocean);
+  border-radius: 50%;
+  color: var(--white);
+  outline: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
 /*styles icons*/
 .icons-list  {
   display: flex;
