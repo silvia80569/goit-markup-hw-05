@@ -108,7 +108,6 @@ a:active{
 	text-align: center;
 }
 
-.hero-button:focus,
 .hero-button:hover {
 	background-color:var(--light-slate) ;	
   cursor: pointer;
@@ -129,24 +128,23 @@ a:active{
   justify-content: center;
   align-items: center;
 }
-
 .modal-content {
   margin: 0 auto;
   padding: 16px;
   background-color: var(--white);
   width: 50%;
-  height: 50%;
+  height: 500px;
   position: relative;
 }
-
+ 
 .close-btn {
-  background-color: var(--ocean);
+  background-color: var(--iris);
   border-radius: 50%;
-  color: var(--white);
+  color: var(--navy-blue);
   outline: none;
   position: absolute;
   top: 24px;
-  right: 24px;
+  left:24px;
 }
 
 /*styles icons*/
